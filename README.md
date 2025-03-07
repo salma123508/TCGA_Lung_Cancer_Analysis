@@ -45,24 +45,16 @@ This project analyzes **lung cancer gene expression data** from **The Cancer Gen
 git clone https://github.com/your-username/TCGA_Lung_Cancer_Analysis.git
 cd TCGA_Lung_Cancer_Analysis
 
-🔬 Analysis Pipeline & Workflow
-1️⃣ Download & Preprocess Data
-Query and download raw count RNA-seq data using TCGAbiolinks.
-Normalize and filter low-expression genes.
-2️⃣ Exploratory Data Analysis (EDA)
-PCA & Clustering to visualize sample differences.
-Correlation Heatmaps for gene expression relationships.
-3️⃣ Differential Expression Analysis (DEG)
-Using DESeq2 (R) and edgeR for log2FoldChange & p-value calculation.
-Visualizing results using volcano plots & heatmaps.
-4️⃣ Functional Enrichment Analysis
-GO (Gene Ontology) Analysis: Identify biological processes, cellular components, and molecular functions enriched in DEGs.
-KEGG Pathway Analysis: Identify signaling pathways linked to lung cancer.
-📈 Key Results & Findings
-✔ PCA & Clustering: Clear separation between tumor & normal samples.
-✔ DEGs Identified: 500+ genes differentially expressed between LUAD vs. normal.
-✔ Enrichment Analysis: DEGs linked to p53 signaling, EGFR pathway, immune response regulation.
+## 📌 Work Done  
+- Downloaded and preprocessed **TCGA lung cancer RNA-seq data**.  
+- Performed **differential expression analysis (DEG)** using `DESeq2`.  
+- Conducted **exploratory data analysis (PCA, heatmaps, clustering)**.  
+- Identified **significantly upregulated and downregulated genes**.  
+- Performed **functional enrichment analysis (GO, KEGG pathways)**.  
+- Visualized results using **volcano plots, heatmaps, and bar plots**.  
 
-🖼 Sample Visualizations:
-
-![volcano plot](https://github.com/user-attachments/assets/0727a231-4f20-41c0-855c-a1f3528abf33)
+## 📈 Key Findings  
+- **PCA & Clustering:** Distinct separation between tumor and normal samples.  
+- **DEGs Identified:** **500+ significantly differentially expressed genes**.  
+- **Top Pathways Enriched:** **p53 signaling, EGFR pathway, immune response regulation**.  
+- **Potential Biomarkers:** Key genes linked to **lung cancer progression**.  
