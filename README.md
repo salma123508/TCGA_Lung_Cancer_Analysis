@@ -38,12 +38,6 @@ This project analyzes **lung cancer gene expression data** from **The Cancer Gen
 
 ---
 
-## ⚙ **Installation & Setup**  
-
-### **1️⃣ Clone the Repository**
-```sh
-git clone https://github.com/your-username/TCGA_Lung_Cancer_Analysis.git
-cd TCGA_Lung_Cancer_Analysis
 
 ## 📌 Work Done  
 - Downloaded and preprocessed **TCGA lung cancer RNA-seq data**.  
